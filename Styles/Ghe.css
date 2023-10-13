@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.GheVP {
+    background: #ffff;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: scroll;
+}
+
+.GheVP>div:nth-child(1),
+.bai-viet>div:first-child {
+    border-bottom: 2px solid #f0f0f0;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #2b4bb6;
+}
+
+.GheVP>div:nth-child(1) img,
+.bai-viet>div:first-child img {
+    vertical-align: middle;
+    margin: 0 10px 0 10px;
+}
+
+.GheVP>div:nth-child(2) {
+    padding: 10px 30px;
+    font-size: 14px;
+
+}
+
+.xemThem {
+    color: #2b4bb6;
+    font-weight: bold;
+    background: #ffff;
+    border-bottom: 2px solid #f0f0f0;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.sapXep {
+    background: #ffff;
+    padding: 5px 5px;
+}
+
+.sapXep button,
+.themsp button,
+.bai-viet button {
+    padding: 5px 15px;
+    border: #2b4bb6 solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2b4bb6;
+    margin-right: 10px;
+    background: #ffff;
+
+}
+
+.sapXep button:last-child {
+    float: right;
+}
+
+.xemThem:hover,
+.sapXep button:hover,
+.SanPham a:hover,
+.themsp button:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+/* //////////////////////////////////////////////// */
+.SanPham {
+    /* border: 1px solid; */
+    margin-top: 10px;
+    min-height: 210px;
+    background-color: white;
+    clear: both;
+}
+
+.SanPham::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.SanPham>div:nth-child(1) {
+    padding: 10px 5px;
+
+}
+
+.SanPham>div:nth-child(1) img {
+    padding: 10px;
+    background: #2b4bb6;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.SanPham>div:nth-child(1) span:nth-child(3) {
+    float: right;
+}
+
+.SanPham>div:nth-child(1) span:nth-child(3) a {
+    font-size: small;
+    margin-right: 8px;
+}
+
+.listSP {
+    /* background: #ffff; */
+    position: relative;
+    height: 330px;
+}
+
+
+
+.listSP .col {
+    float: left;
+    width: 20%;
+    min-height: 210px;
+    height: 330px;
+    background: #f0f0f0;
+    padding: 2px;
+}
+
+.listSP .col>div {
+    margin: auto;
+    background: #ffff;
+    height: 100%;
+    padding: 15px;
+}
+
+.listSP .col>div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 gray;
+}
+
+.listSP .col .col-img img {
+    width: 100%;
+
+}
+
+.listSP .col .name,
+.listSP .col .price,
+.bai-viet a {
+    font-size: 15px;
+}
+
+.listSP .col .price {
+    font-weight: bold;
+    color: rgb(217, 7, 7);
+}
+
+.themsp {
+    clear: both;
+    padding: 23px 10px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+/* ////////////////////////////////////// */
+
+.bai-viet {
+    background: #ffff;
+    margin-top: 15px;
+}
+
+.bai-viet>div:nth-child(2) {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bai-viet>div:nth-child(2)>* {
+    width: 30%;
+}
+
+.gheLQ-img {
+    background: url(/AssignMent/image/ghe-bai-viet-LQ.jpg) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.bai-viet>div:nth-child(2) p {
+    display: flex;
+    margin: 5px 0 10px 0;
+}
+
+.bai-viet>div:nth-child(2) img {
+    margin-right: 10px;
+    width: 90px;
+    height: 85px;
+    vertical-align: text-top;
+}
+
+.bai-viet button:hover {
+    background: #4d74f5;
+    color: #ffff;
+}
+
+.bai-viet>div:nth-child(2) p a:hover {
+    color: #4d74f5;
+}

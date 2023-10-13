@@ -1,0 +1,88 @@
+.lienHe-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    /* margin-top: 15px; */
+}
+
+.lienHe-main>div {
+    padding: 15px;
+    flex: 1;
+    line-height: 30px;
+
+}
+.lienHe-main > div:first-child{
+    line-height: 30px;
+}
+.lienHe-main > div:first-child p{
+    margin-top: 8px;
+}
+.lienHe-main > div:first-child a{
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.lienHe-main > div:first-child span{
+    font-weight: bold;
+    color: #16458c;
+    font-size: 17px;
+}
+.lienHe-main .form {
+    background: #f0f0f0;
+    height: fit-content;
+    margin-left: 20px;
+}
+.lienHe-main h2, .lienHe-main h1{
+    margin: 10px 0;
+}
+.lienHe-main h1{
+    font-size: 24px;
+}
+.form h2 {
+    text-align: center;
+}
+.form-contain > span{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.form-contain input{
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 2px 0;
+}
+.form-contain > span:nth-child(3) input,
+textarea {
+    width: 65%;
+
+}
+.form-contain label{
+    width: 132px;
+    display:inline-block;
+}
+.form-contain input{
+    margin-bottom: 15px;
+}
+.form-contain .red{
+    color: red;
+}
+.form-contain div {
+    margin: 2px;
+    width: 100px;
+    height: 30px;
+    background: red;
+    display: inline-block;
+}
+.form-contain .button-form{
+    padding: 3px 10px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+#check_robot{
+    width: 110px;
+    height: 35px;
+    vertical-align: super;
+}
+

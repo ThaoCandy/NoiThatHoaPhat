@@ -1,0 +1,369 @@
+*{
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f0f0f0;
+}
+.div-body{
+    width: 75%;margin: auto;
+    background: #f0f0f0;
+}
+a{
+    text-decoration: none;
+}
+.linkTC {
+    padding: 10px;
+}
+.linkTC a:hover{
+    color:#4eade1
+}
+/*//////////////////////////////////////// HEADER */
+header{
+     background: #ffff;
+     /* position: fixed; */
+}
+.headerOnTop{
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 40px 10px 0px;
+    background: #ffff;
+
+}
+.headerOnTop .nav1 a{
+    color: #3f4f7d;
+    padding: 3px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: smaller;
+}
+.search{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(247, 241, 234);
+    display: inline-block;
+    margin-left: 10px;
+    border: none;
+}
+#label-se{
+    margin-left: -35px;
+   color: rgb(111, 110, 110);
+   cursor: pointer;
+}
+
+.nav2{
+    background: #2b4bb6;
+    line-height: 35px;
+    text-align: center;
+    color: #ffff;
+}
+.nav2 a{
+    color: #ffff;
+    padding: 3px;
+    margin-right: 13px;
+}
+.nav2 a:hover{
+    color: rgb(223, 141, 141);
+}
+
+
+/*/////////////////////////////////////// Slide LEFT */
+
+.New{
+    
+    display: flex;
+    margin-top: 15px;
+}
+.New .slide{
+    flex: 2;
+    margin-right: 10px;
+   
+}
+.New .New-right{
+    flex: 1;
+}
+.slide .imgSlide {
+    position: relative;
+    background-color: white;
+}
+.slide .imgSlide img{
+    width: 100%;
+
+}
+.slide .slidePrivot{
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    
+}
+.slide .slidePrivot p{
+    padding: 3px 3px 3px 3px;
+    margin: 0;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+.slide .slidePrivot p:not(.slide .slidePrivot p:last-child){
+    border-right: 1px solid rgb(185, 184, 184);
+}
+.slide .slidePrivot p:hover{
+    color: rgb(102, 183, 183);
+    cursor: pointer;
+}
+.slide .imgSlide button, .listSP-privot button{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    background: rgba(177, 177, 177, 0.722); 
+    border: none;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #879ce0ee;
+    
+}
+.slide .imgSlide button:hover, .listSP-privot button:hover{
+    background: rgba(143, 140, 140, 0.722);
+    color:aqua;
+}
+.slide .imgSlide button:nth-child(2),
+.listSP-privot button:nth-child(1){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 0;
+}
+.slide .imgSlide button:nth-child(3),
+.listSP-privot button:nth-child(2){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right: 0;
+}
+
+
+/*///////////////////////////// 4 KHỐI CHỮ NHẬT */
+
+.khoiCN1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.khoiCN1 > *{
+   width: 24.555%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+}
+.khoiCN1 > *:first-child{
+    background: #2d80ac;
+}
+.khoiCN1 > *:nth-child(2){
+    background:#ea9843 ;
+}
+.khoiCN1 > *:nth-child(3){
+    background: #1fad5b;
+}
+.khoiCN1 > *:nth-child(4){
+    background: #1e969c;
+    margin-right: 0;
+}
+
+.khoiCN1 p{
+    margin-left: 20px;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+}
+.khoiCN1 p span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.khoiCN1 > *:hover, .khoiCN2 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+/*//////////////////////////////// NEW RIGHT */
+
+.New.New-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.New-right > div{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+}
+.New-right > p{
+    font-variant: small-caps;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color:rgb(224, 53, 53);
+}
+
+.slide-new2{
+    overflow-x: scroll;
+}
+.slide-new2 > div{
+    width: 200%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.slide-new2 > div > div {
+    display: flex;
+    width: 100%;
+
+}
+
+.slide-new2 > div > div img{
+    height: 77px;margin-right: 8px;
+}
+
+.slide-new2 > div > div a{
+    color: black;
+    font-size: 17px;
+}
+
+.slide-new2 > div > div a:hover,
+.nav1 a:hover{
+    color:rgb(102, 183, 183);
+}
+
+/* ///////////////////////////////// 2 Khối CN */
+.khoiCN2{
+    margin-top: 15px;
+    clear: both;
+}
+.khoiCN2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.khoiCN2 img{
+    width: 50%;
+    float: left;
+ 
+}
+
+
+/* ///////////////////////////////////// Tin tức Slide 3 */
+.TinTuc{
+    background: #ffff;
+    clear: both;
+    margin-top: 15px;
+    position: relative;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 2px 0 gray;
+}
+.TinTuc > div:first-child{
+    border-bottom: 0.5px solid #1211114a;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+.TinTuc > div > span{
+    color: #2b4bb6;
+    font-weight: bold;
+    font-size: larger;
+
+}
+.TinTuc > div > span:nth-child(2){
+    position: absolute;
+    right: 20px;
+
+}
+.TinTuc i{
+    cursor: pointer;
+    margin-right: 7px;
+
+}
+.TinTuc i:hover{
+    background: rgb(219, 214, 214);
+}
+.TinTuc .slide3 {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+}
+.TinTuc .slide3 > div{
+    width:200%;
+}
+.TinTuc .slide3 > div > *{
+    padding: 5px 10px;
+    width: 16.666%;
+   float: left;
+   white-space:none;
+}
+.TinTuc .slide3 > div > * > img{
+    height: 150px;
+    width: 100%;
+}
+
+.TinTuc .slide3 > div > * > p:hover{
+    cursor: pointer;
+    color: rgb(102, 183, 183);
+}
+
+/* //////////////////////////////////////// Khối Thông Tin */
+
+.ThongTin, footer{
+    margin: 20px 0 15px 0;
+    clear: both;
+}
+.ThongTin > div:first-child{
+    background:#2b4bb6;
+    padding: 7px 13%;
+}
+.ThongTin > div > span:first-child{
+    font-weight: bold;
+    color:white;
+    font-size: larger;
+}
+
+.media-fl-right{
+    float: right;
+    display: inline;
+}
+.media-fl-right a{
+    margin-right: 10px;
+}
+
+.ThongTin > div:nth-child(2), footer{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ThongTin > div:nth-child(2) > *, footer >*{
+    list-style: none;
+    margin: 7px;
+}
+.ThongTin > div:nth-child(2) > * > li, footer li{
+    font-size: 17px;
+}
+.ThongTin > div:nth-child(2) > * > li:first-child, footer > * > li:first-child{
+    font-weight: bold;
+   margin-bottom: 10px;
+}
+footer a{
+    color:#7e648c;
+}
+.ThongTin > div:nth-child(2) > * a:hover, footer a:hover{
+    color: #4eade1;
+}
